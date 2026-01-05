@@ -1,0 +1,19 @@
+# Ignore local configuration
+dumper.conf
+
+# Ignore output artifacts
+artifacts/
+*.tar
+*.zip
+*.png
+
+# Ignore generated metadata (keep manifests if you want history, ignore if not)
+_meta/
+_meta/id_list.txt
+_meta/skipped.tsv
+_meta/app-names.tsv
+manifests/
+
+# System junk
+.DS_Store
+
